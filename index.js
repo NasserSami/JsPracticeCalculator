@@ -11,10 +11,9 @@ let sumEl = document.getElementById("sum-el");
 // E.g. if the user clicks on the "Plus" button, you should render
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
 
-function add()
-{
-    sumEl.textContent = "Sum: "
-    sumEl.textContent += num1 + num2;
+function add() {
+  sumEl.textContent = "Sum: ";
+  sumEl.textContent += num1 + num2;
 }
 
 function subtract()
